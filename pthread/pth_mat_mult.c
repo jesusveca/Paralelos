@@ -20,7 +20,6 @@ void Generate_vector(double x[], int n){
   for (int i = 0; i < n; i++)
     x[i] = 1;
 }
-
 void Read_matrix(char* prompt, double A[], int m, int n) {
    int i, j;
    printf("%s\n", prompt);
