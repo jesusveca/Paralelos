@@ -1,7 +1,6 @@
 /* gcc -g -Wall -o pi_calculo PTH_pi_busyWaiting.c -lpthread
  * ./pi_calculo 64 100000000
  */
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
@@ -9,7 +8,6 @@
 #include "timer.h"
 
 const int MAX_THREADS = 1024;
-
 long thread_count;      long long n;
 int flag;               double sum;
 
